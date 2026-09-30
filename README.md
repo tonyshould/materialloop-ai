@@ -4,6 +4,7 @@ MaterialLoop AI is a competition-ready industrial circularity demo. It uses Gemi
 
 - **Challenge:** Google Cloud AI Builder Cup 2026
 - **Theme:** Sustainability & Social Impact
+- **Source repository:** https://github.com/tonyshould/materialloop-ai
 - **Live prototype:** https://materialloop-ai-474046076456.asia-east1.run.app
 - **Demo video (2:10.70):** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_2026.mp4
 - **Presentation PDF:** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Builder_Cup_2026_Deck.pdf

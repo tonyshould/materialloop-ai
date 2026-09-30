@@ -3,7 +3,7 @@
 ## Required artifacts
 
 - [x] Working Google Cloud prototype: https://materialloop-ai-474046076456.asia-east1.run.app
-- [ ] Public GitHub repository owned by the team leader or team organization
+- [x] Public GitHub repository: https://github.com/tonyshould/materialloop-ai
 - [x] Public Cloud Storage backup video with a verified runtime of 130.70 seconds
 - [ ] Public YouTube, Vimeo or Google Drive video link (Drive upload complete; link sharing pending)
 - [x] Final presentation exported to PDF
@@ -15,7 +15,7 @@
 - [x] Cases A, B and C pass live smoke tests
 - [x] Lint, unit tests and production build pass
 - [x] Cloud Logging contains completed run events
-- [ ] Final commit SHA recorded in `verification-report.json`
+- [x] Verified source commit SHA recorded in `verification-report.json`
 - [x] Current source tree passes a credential-pattern secret scan
 - [ ] Final repository history passes a secret scan after the first commit
 - [ ] Public endpoint tested in an incognito browser
