@@ -1,0 +1,15 @@
+node_modules/
+dist/
+dist-server/
+.env
+.env.local
+*.log
+.DS_Store
+coverage/
+tmp/
+delivery/
+.artifacts-build/
+.codex-finalizer/
+submission/
+.tmp-*/
+.delivery-staging/

@@ -1,0 +1,27 @@
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args: ["build", "-t", "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/materialloop-ai:$BUILD_ID", "."]
+  - name: gcr.io/cloud-builders/docker
+    args: ["push", "${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/materialloop-ai:$BUILD_ID"]
+  - name: gcr.io/google.com/cloudsdktool/cloud-sdk
+    entrypoint: gcloud
+    args:
+      - run
+      - deploy
+      - materialloop-ai
+      - --image=${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/materialloop-ai:$BUILD_ID
+      - --region=${_REGION}
+      - --platform=managed
+      - --allow-unauthenticated
+      - --service-account=${_SERVICE_ACCOUNT}
+      - --set-env-vars=ANALYZER_PROVIDER=gemini,GOOGLE_CLOUD_PROJECT=$PROJECT_ID,GOOGLE_CLOUD_LOCATION=${_VERTEX_LOCATION},GEMINI_MODEL=${_GEMINI_MODEL},GCS_BUCKET=${_GCS_BUCKET},FIRESTORE_COLLECTION=materialloop_runs,PERSIST_RESULTS=${_PERSIST_RESULTS}
+substitutions:
+  _REGION: asia-east1
+  _VERTEX_LOCATION: global
+  _REPOSITORY: materialloop
+  _SERVICE_ACCOUNT: materialloop-runtime@$PROJECT_ID.iam.gserviceaccount.com
+  _GEMINI_MODEL: gemini-2.5-flash
+  _GCS_BUCKET: materialloop-demo-assets
+  _PERSIST_RESULTS: "false"
+images:
+  - ${_REGION}-docker.pkg.dev/$PROJECT_ID/${_REPOSITORY}/materialloop-ai:$BUILD_ID

@@ -1,0 +1,46 @@
+{
+  "name": "materialloop-ai",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "concurrently -k \"vite --host 127.0.0.1\" \"tsx watch server/index.ts\"",
+    "build": "node scripts/clean-build.mjs && vite build && tsc -p tsconfig.server.json",
+    "start": "node dist-server/server/index.js",
+    "lint": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.server.json --noEmit",
+    "test": "vitest run server",
+    "demo:verify": "tsx scripts/verify-demo.ts",
+    "gemini:verify": "tsx scripts/verify-gemini.ts",
+    "gcp:preflight": "powershell -ExecutionPolicy Bypass -File scripts/preflight-gcp.ps1",
+    "delivery:package": "powershell -ExecutionPolicy Bypass -File scripts/package-delivery.ps1"
+  },
+  "dependencies": {
+    "@google-cloud/firestore": "9.2.0",
+    "@google-cloud/storage": "8.2.0",
+    "@google/genai": "2.24.0",
+    "dotenv": "17.2.3",
+    "express": "5.2.1",
+    "lucide-react": "0.548.0",
+    "multer": "^2.4.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^24.10.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "6.1.1",
+    "concurrently": "10.0.5",
+    "sharp": "^0.35.5",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.1",
+    "vitest": "5.0.2"
+  }
+}

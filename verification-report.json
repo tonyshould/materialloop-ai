@@ -1,0 +1,60 @@
+{
+  "project": "MaterialLoop AI",
+  "theme": "Sustainability & Social Impact",
+  "generatedAt": "2026-09-29T16:18:00Z",
+  "commitSha": null,
+  "googleCloudProject": "ruitwin-production",
+  "region": "asia-east1",
+  "cloudRunService": "materialloop-ai",
+  "cloudRunRevision": "materialloop-ai-00002-qmt",
+  "liveUrl": "https://materialloop-ai-474046076456.asia-east1.run.app",
+  "provider": "gemini",
+  "model": "gemini-2.5-flash",
+  "persistenceEnabled": false,
+  "checks": {
+    "lint": "pass",
+    "unitTests": "6 passed",
+    "productionBuild": "pass",
+    "geminiSmokeTest": "pass",
+    "cloudRunSmokeTest": "pass"
+  },
+  "submissionArtifacts": {
+    "demoVideo": {
+      "file": "submission/MaterialLoop_AI_Demo_Competition_V2.mp4",
+      "publicBackupUrl": "https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_2026.mp4",
+      "googleDriveUrl": "https://drive.google.com/file/d/1N2p3ff0elwVjEaCPjTW3iOZLihHU9H8Q/view?usp=drivesdk",
+      "googleDriveShared": false,
+      "durationSeconds": 130.7,
+      "maximumAllowedSeconds": 180,
+      "resolution": "1920x1080",
+      "audio": "English narration plus original synthesized ambient bed"
+    },
+    "presentation": {
+      "pptx": "submission/MaterialLoop_AI_Builder_Cup_2026_Deck.pptx",
+      "pdf": "submission/MaterialLoop_AI_Builder_Cup_2026_Deck.pdf",
+      "publicPdfUrl": "https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Builder_Cup_2026_Deck.pdf",
+      "googleDrivePdfUrl": "https://drive.google.com/file/d/1j6O2uJ1cvUDvVcFC24T931n8-ipQ1RDz/view?usp=drivesdk",
+      "googleDriveShared": false,
+      "pages": 9
+    }
+  },
+  "liveCases": {
+    "case-a-success": {
+      "decisionStatus": "ready",
+      "runId": "57c40203-5303-4262-b15f-3f3161eda823"
+    },
+    "case-b-photo-only": {
+      "decisionStatus": "insufficient_evidence",
+      "runId": "a43714ae-f7c0-476c-bcc4-02c91447bea2"
+    },
+    "case-c-conflict": {
+      "decisionStatus": "evidence_conflict",
+      "runId": "03ebc8bc-e934-40c6-92be-e4327726b169"
+    }
+  },
+  "limitations": [
+    "All material, price, buyer and impact data are synthetic fixtures.",
+    "Cloud Storage and Firestore persistence are disabled in the public deployment.",
+    "The public prototype does not provide production authentication or rate limiting."
+  ]
+}
