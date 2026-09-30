@@ -17,8 +17,8 @@
 - [x] Cloud Logging contains completed run events
 - [x] Verified source commit SHA recorded in `verification-report.json`
 - [x] Current source tree passes a credential-pattern secret scan
-- [ ] Final repository history passes a secret scan after the first commit
-- [ ] Public endpoint tested in an incognito browser
+- [x] Final repository history passes a secret scan after the first commit
+- [x] Public endpoint returns HTTP 200 without authentication
 
 ## Submission consistency
 
@@ -33,7 +33,7 @@
 
 - [x] Exclude `.env`, credentials, tokens, personal addresses and billing screenshots from Git
 - [ ] Confirm image, dependency and document rights
-- [ ] Confirm the GitHub repository opens without login
+- [x] Confirm the GitHub repository opens without login
 - [x] Confirm the Cloud Storage backup video opens without login
 - [ ] Confirm the final Google Drive video opens without login
 - [x] Confirm the deck opens without login
