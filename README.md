@@ -6,7 +6,8 @@ MaterialLoop AI is a competition-ready industrial circularity demo. It uses Gemi
 - **Theme:** Sustainability & Social Impact
 - **Source repository:** https://github.com/tonyshould/materialloop-ai
 - **Live prototype:** https://materialloop-ai-474046076456.asia-east1.run.app
-- **Demo video (2:10.70):** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_2026.mp4
+- **Demo video (2:10.70):** https://drive.google.com/file/d/1N2p3ff0elwVjEaCPjTW3iOZLihHU9H8Q/view?usp=sharing
+- **Video backup:** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_2026.mp4
 - **Presentation PDF:** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Builder_Cup_2026_Deck.pdf
 
 ## Why it matters
@@ -117,7 +118,8 @@ The app never upgrades an observed or inferred field to verified. Case B and Cas
 
 ## Competition materials
 
-- [Public demo video](https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_2026.mp4)
+- [Public demo video](https://drive.google.com/file/d/1N2p3ff0elwVjEaCPjTW3iOZLihHU9H8Q/view?usp=sharing)
+- [Public Cloud Storage video backup](https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_2026.mp4)
 - [Public presentation PDF](https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Builder_Cup_2026_Deck.pdf)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Business case](docs/BUSINESS_CASE.md)

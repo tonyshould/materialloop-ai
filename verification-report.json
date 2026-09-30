@@ -28,8 +28,8 @@
     "demoVideo": {
       "file": "submission/MaterialLoop_AI_Demo_Competition_V2.mp4",
       "publicBackupUrl": "https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_2026.mp4",
-      "googleDriveUrl": "https://drive.google.com/file/d/1N2p3ff0elwVjEaCPjTW3iOZLihHU9H8Q/view?usp=drivesdk",
-      "googleDriveShared": false,
+      "googleDriveUrl": "https://drive.google.com/file/d/1N2p3ff0elwVjEaCPjTW3iOZLihHU9H8Q/view?usp=sharing",
+      "googleDriveShared": true,
       "durationSeconds": 130.7,
       "maximumAllowedSeconds": 180,
       "resolution": "1920x1080",

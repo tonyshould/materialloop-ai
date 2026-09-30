@@ -5,7 +5,7 @@
 - [x] Working Google Cloud prototype: https://materialloop-ai-474046076456.asia-east1.run.app
 - [x] Public GitHub repository: https://github.com/tonyshould/materialloop-ai
 - [x] Public Cloud Storage backup video with a verified runtime of 130.70 seconds
-- [ ] Public YouTube, Vimeo or Google Drive video link (Drive upload complete; link sharing pending)
+- [x] Public Google Drive video link: https://drive.google.com/file/d/1N2p3ff0elwVjEaCPjTW3iOZLihHU9H8Q/view?usp=sharing
 - [x] Final presentation exported to PDF
 
 ## Technical verification
@@ -35,6 +35,6 @@
 - [ ] Confirm image, dependency and document rights
 - [x] Confirm the GitHub repository opens without login
 - [x] Confirm the Cloud Storage backup video opens without login
-- [ ] Confirm the final Google Drive video opens without login
+- [x] Confirm the final Google Drive video opens without login
 - [x] Confirm the deck opens without login
 - [ ] Save the final submission receipt and timestamp
