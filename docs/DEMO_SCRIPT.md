@@ -1,6 +1,6 @@
-# MaterialLoop AI Competition Demo V2
+# MaterialLoop AI Competition Demo — Final 3:30 Version
 
-Verified runtime: 2 minutes 10.70 seconds. The final uploaded video remains strictly under 3 minutes.
+Verified runtime: exactly 3 minutes 30.00 seconds. This version follows the official 3–4 minute instruction selected by the team leader.
 
 ## 0:00 to 0:08 - Hook
 
@@ -42,9 +42,29 @@ The live deployment was smoke tested end to end with Gemini 2.5 Flash. Three ind
 
 The commercial path begins with paid factory pilots, then annual site licenses, and only expands after repeat use proves the workflow. We are building a defensible decision layer, not another speculative marketplace.
 
-## 2:01 to 2:11 - Close
+## 2:01 to 2:11 - Product promise
 
 MaterialLoop AI turns industrial leftovers into decision-ready value, only when the evidence earns it. Try the live prototype on Google Cloud Run.
+
+## 2:11 to 2:31 - Pilot metrics
+
+A pilot is measured with operational evidence, not vanity metrics. We compare review time, evidence completeness, blocked unsafe decisions, recovered material value and avoided carbon before and after deployment.
+
+## 2:31 to 2:48 - Human review loop
+
+Operators can see why a recommendation passed, which source supports it, what is still missing and exactly where responsibility remains with the reviewer.
+
+## 2:48 to 3:02 - Rollout path
+
+The first customer is one factory and one material stream. Prove repeat use there, then expand to more sites, materials and licensed enterprise workflows.
+
+## 3:02 to 3:15 - Global portability
+
+Regional price, carbon and compliance rules are versioned inputs, while the audit trail and refusal behavior stay consistent across countries.
+
+## 3:15 to 3:30 - Close
+
+Gemini helps understand messy evidence, deterministic controls protect the decision, and Google Cloud makes the workflow deployable. MaterialLoop AI converts circularity from an aspiration into a reviewable operating process.
 
 ## Production notes
 

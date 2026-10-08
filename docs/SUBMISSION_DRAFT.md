@@ -25,7 +25,9 @@ https://materialloop-ai-474046076456.asia-east1.run.app
 https://github.com/tonyshould/materialloop-ai
 
 **Demo video**  
-https://drive.google.com/file/d/1N2p3ff0elwVjEaCPjTW3iOZLihHU9H8Q/view?usp=sharing
+https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing
+
+Verified runtime: exactly 3 minutes 30.00 seconds, selected to match the official 3–4 minute instruction. The Hack2skill form currently displays a conflicting "up to 3 minutes" helper label; the team leader explicitly chose the official-duration version.
 
 **Brief description**
 
