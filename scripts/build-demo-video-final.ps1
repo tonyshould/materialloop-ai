@@ -107,7 +107,7 @@ function Build-Variant {
     [Parameter(Mandatory = $true)]
     [string]$Name,
     [Parameter(Mandatory = $true)]
-    [int]$SceneCount,
+    [int[]]$SceneIndices,
     [Parameter(Mandatory = $true)]
     [double]$TargetSeconds
   )
@@ -115,7 +115,13 @@ function Build-Variant {
   $concatPath = Join-Path $buildRoot ("concat-{0}.txt" -f $Name)
   $joinedPath = Join-Path $buildRoot ("joined-{0}.mp4" -f $Name)
   $outputPath = Join-Path $outputRoot ("MaterialLoop_AI_Demo_{0}.mp4" -f $Name)
-  $concatLines = $sceneFiles[0..($SceneCount - 1)] | ForEach-Object {
+  $selectedSceneFiles = $SceneIndices | ForEach-Object {
+    if ($_ -lt 1 -or $_ -gt $sceneFiles.Count) {
+      throw "Invalid scene index for ${Name}: $_"
+    }
+    $sceneFiles[$_ - 1]
+  }
+  $concatLines = $selectedSceneFiles | ForEach-Object {
     "file '" + ($_.Replace("'", "'\''")) + "'"
   }
   [System.IO.File]::WriteAllLines($concatPath, $concatLines, [System.Text.UTF8Encoding]::new($false))
@@ -139,10 +145,12 @@ function Build-Variant {
   $targetText = $TargetSeconds.ToString("0.000", $culture)
   $musicFadeOut = [Math]::Max(1, $TargetSeconds - 1.8).ToString("0.000", $culture)
   $musicSource = "aevalsrc=0.055*sin(2*PI*55*t)*(0.70+0.30*sin(2*PI*0.42*t))+0.028*sin(2*PI*82.41*t)+0.016*sin(2*PI*110*t):s=48000:d=$targetText"
+  $closingFrameNumber = $scenes[$SceneIndices[-1] - 1].Frame
+  $closingImagePath = Join-Path $frameRoot ("scene-{0:00}.png" -f $closingFrameNumber)
 
   & $FfmpegPath -hide_banner -loglevel error -y `
-    -i $joinedPath -f lavfi -i $musicSource `
-    -filter_complex "[0:v]tpad=stop_mode=clone:stop_duration=${paddingText}[v];[0:a]apad=pad_dur=${paddingText},volume=1.0[voice];[1:a]lowpass=f=520,highpass=f=35,afade=t=in:st=0:d=1.2,afade=t=out:st=${musicFadeOut}:d=1.8,volume=0.13[bed];[voice][bed]amix=inputs=2:duration=longest:dropout_transition=1,loudnorm=I=-16:TP=-1.5:LRA=11[a]" `
+    -i $joinedPath -loop 1 -framerate 30 -i $closingImagePath -f lavfi -i $musicSource `
+    -filter_complex "[0:v]setpts=PTS-STARTPTS[main];[1:v]scale=1920:1080,trim=duration=${paddingText},setpts=PTS-STARTPTS,format=yuv420p[hold];[main][hold]concat=n=2:v=1:a=0[v];[0:a]apad=pad_dur=${paddingText},volume=1.0[voice];[2:a]lowpass=f=520,highpass=f=35,afade=t=in:st=0:d=1.2,afade=t=out:st=${musicFadeOut}:d=1.8,volume=0.13[bed];[voice][bed]amix=inputs=2:duration=longest:dropout_transition=1,loudnorm=I=-16:TP=-1.5:LRA=11[a]" `
     -map "[v]" -map "[a]" -t $targetText `
     -c:v libx264 -preset medium -crf 18 -r 30 -pix_fmt yuv420p `
     -c:a aac -b:a 224k -movflags +faststart $outputPath
@@ -159,12 +167,14 @@ function Build-Variant {
     DurationSeconds = [Math]::Round($durationSeconds, 2)
     NarrationSeconds = [Math]::Round($joinedDuration, 2)
     PaddingSeconds = [Math]::Round($padding, 2)
-    SceneCount = $SceneCount
+    SceneCount = $SceneIndices.Count
+    SceneIndices = $SceneIndices
   }
 }
 
 $results = @(
-  Build-Variant -Name "Extended_3m30" -SceneCount $scenes.Count -TargetSeconds $extendedTargetSeconds
+  Build-Variant -Name "Final_2m59" -SceneIndices @(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 17) -TargetSeconds 179.0
+  Build-Variant -Name "Extended_3m30" -SceneIndices (1..$scenes.Count) -TargetSeconds $extendedTargetSeconds
 )
 
 [PSCustomObject]@{

@@ -4,8 +4,8 @@
 
 - [x] Working Google Cloud prototype: https://materialloop-ai-474046076456.asia-east1.run.app
 - [x] Public GitHub repository: https://github.com/tonyshould/materialloop-ai
-- [x] Public Cloud Storage backup of the final 210.00-second video: https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Extended_3m30.mp4
-- [x] Public Google Drive video link (verified runtime: 210.00 seconds): https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing
+- [x] Public Cloud Storage backup of the final 179.00-second video: https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Final_2m59.mp4
+- [x] Public Google Drive video link (verified runtime: 179.00 seconds): https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing
 - [x] Official-template presentation exported to PDF (0.79 MiB, below the 5 MiB limit)
 - [x] Public official-template deck: https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Official.pdf
 
@@ -27,7 +27,7 @@
 - [x] Product name: MaterialLoop AI
 - [x] All competition-facing materials are in English
 - [x] Synthetic prices, buyers, certificates and impact factors are disclosed
-- [x] GitHub, deck, final 3:30 video and submitted form use consistent competition links
+- [x] GitHub, deck, final 2:59 video and submitted form use consistent competition links
 - [x] Registered roster contains 2 members (minimum team size met)
 - [x] Team name, team-leader display name and each member's eligibility confirmed by the team leader
 
