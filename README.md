@@ -7,7 +7,7 @@ MaterialLoop AI is a competition-ready industrial circularity demo. It uses Gemi
 - **Source repository:** https://github.com/tonyshould/materialloop-ai
 - **Live prototype:** https://materialloop-ai-474046076456.asia-east1.run.app
 - **Demo video (3:30.00):** https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing
-- **Video backup:** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_2026.mp4
+- **Video backup (3:30.00):** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Extended_3m30.mp4
 - **Presentation PDF:** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Official.pdf
 
 ## Why it matters

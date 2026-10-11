@@ -1,8 +1,10 @@
 {
   "project": "MaterialLoop AI",
   "theme": "Sustainability & Social Impact",
-  "generatedAt": "2026-09-29T16:18:00Z",
+  "generatedAt": "2026-10-11T07:40:56Z",
   "commitSha": "399c517c3812928280d1420a15f650d0bc2a47f3",
+  "commitScope": "Application source deployed to Cloud Run; later commits contain competition documentation and media updates.",
+  "submissionMaterialsBaselineCommitSha": "6970aea10ba0cc022fdcba929f8228cc0556bbcb",
   "repository": {
     "url": "https://github.com/tonyshould/materialloop-ai",
     "visibility": "public",
@@ -13,6 +15,7 @@
   "region": "asia-east1",
   "cloudRunService": "materialloop-ai",
   "cloudRunRevision": "materialloop-ai-00002-qmt",
+  "cloudRunMinInstances": 1,
   "liveUrl": "https://materialloop-ai-474046076456.asia-east1.run.app",
   "provider": "gemini",
   "model": "gemini-2.5-flash",
@@ -26,19 +29,21 @@
   },
   "submissionArtifacts": {
     "demoVideo": {
-      "file": "submission/MaterialLoop_AI_Demo_Competition_V2.mp4",
-      "publicBackupUrl": "https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_2026.mp4",
-      "googleDriveUrl": "https://drive.google.com/file/d/1N2p3ff0elwVjEaCPjTW3iOZLihHU9H8Q/view?usp=sharing",
+      "file": "submission/MaterialLoop_AI_Demo_Extended_3m30.mp4",
+      "publicBackupUrl": "https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Extended_3m30.mp4",
+      "googleDriveUrl": "https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing",
       "googleDriveShared": true,
-      "durationSeconds": 130.7,
-      "maximumAllowedSeconds": 180,
+      "durationSeconds": 210,
+      "officialDurationGuidance": "3-4 minutes",
+      "formHelperConflict": "The Hack2skill form displayed an up-to-3-minutes helper label; the team leader selected the official-duration version.",
       "resolution": "1920x1080",
       "audio": "English narration plus original synthesized ambient bed"
     },
     "presentation": {
-      "pptx": "submission/MaterialLoop_AI_Builder_Cup_2026_Deck.pptx",
-      "pdf": "submission/MaterialLoop_AI_Builder_Cup_2026_Deck.pdf",
-      "publicPdfUrl": "https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Builder_Cup_2026_Deck.pdf",
+      "pptx": "submission/MaterialLoop_AI_Builder_Cup_2026_Official_Template_v4.pptx",
+      "pdf": "submission/MaterialLoop_AI_Builder_Cup_2026_Official_Template_v4.pdf",
+      "publicPdfUrl": "https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Official.pdf",
+      "submittedPdfUrl": "https://storage.googleapis.com/vision-hack2skill-production/innovator/USER02385210/1791504321872-ABCMaterialLoopAI.pdf",
       "googleDrivePdfUrl": "https://drive.google.com/file/d/1j6O2uJ1cvUDvVcFC24T931n8-ipQ1RDz/view?usp=drivesdk",
       "googleDriveShared": false,
       "pages": 9
@@ -47,15 +52,18 @@
   "liveCases": {
     "case-a-success": {
       "decisionStatus": "ready",
-      "runId": "57c40203-5303-4262-b15f-3f3161eda823"
+      "runId": "c1be8959-6fa4-4e5b-a059-03d5cd9cc759",
+      "provider": "gemini"
     },
     "case-b-photo-only": {
       "decisionStatus": "insufficient_evidence",
-      "runId": "a43714ae-f7c0-476c-bcc4-02c91447bea2"
+      "runId": "5bdfc47e-e0dc-481c-9e5a-16c5f1084657",
+      "provider": "demo"
     },
     "case-c-conflict": {
       "decisionStatus": "evidence_conflict",
-      "runId": "03ebc8bc-e934-40c6-92be-e4327726b169"
+      "runId": "f755e71c-67a8-4173-9010-987c52cdb80b",
+      "provider": "demo"
     }
   },
   "limitations": [

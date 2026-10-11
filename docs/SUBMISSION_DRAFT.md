@@ -46,7 +46,9 @@ The description is under the platform's 1,024-character limit.
 
 ## Receipt record
 
-- Submission timestamp: pending
-- Submission ID: pending
-- Receipt screenshot/PDF: pending
-- Final submitted commit SHA: pending final repository update
+- Submission accepted: 2026-10-09 05:40:08 (platform timestamp; timezone not stated)
+- Submission updated: 2026-10-09 05:40:37 (platform timestamp; timezone not stated)
+- Receipt emails: `Submission Successful for AI Builder Cup 2026` and `Submission Updated for AI Builder Cup 2026`
+- Submission ID: not included in the receipt emails
+- Durable receipt record: `docs/SUBMISSION_RECEIPT.md`
+- Application source commit deployed to Cloud Run: `399c517c3812928280d1420a15f650d0bc2a47f3`
