@@ -31,6 +31,6 @@ The receipt emails did not include a separate submission ID. They confirmed that
 - GitHub, the submitted PDF, the final Google Drive video and the Cloud Storage video backup were publicly reachable.
 - Cloud Run service minimum instances was set to 1 for judging reliability.
 
-## Remaining human declaration
+## Team-leader declaration
 
-The team leader must retain evidence that both registered members meet the event eligibility rules and confirm the final platform display names. This cannot be inferred from the technical submission receipt.
+Confirmed by the team leader on 2026-10-11: the platform team name is `ChengFeng`, the team-leader display name is `Tony Huang`, and both registered members are at least 21 years old, are based in the JAPAC region, are working professionals or entrepreneurs, and are not students. Supporting evidence should be retained in case the organizer requests eligibility verification.

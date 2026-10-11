@@ -29,7 +29,7 @@
 - [x] Synthetic prices, buyers, certificates and impact factors are disclosed
 - [x] GitHub, deck, final 3:30 video and submitted form use consistent competition links
 - [x] Registered roster contains 2 members (minimum team size met)
-- [ ] Team name, team-leader display name and each member's eligibility confirmed by the team leader
+- [x] Team name, team-leader display name and each member's eligibility confirmed by the team leader
 
 ## Publication gate
 

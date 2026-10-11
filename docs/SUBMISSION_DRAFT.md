@@ -8,7 +8,7 @@ Prepared on 2026-10-02. Copy these values into the Hack2skill submission form on
 - Chinese name: 承風
 - Team leader shown in deck: Tony Huang
 - Registered roster: 2 members (minimum team size met)
-- Required confirmation: team leader's preferred English/legal display name and each member's eligibility declaration
+- Confirmed by the team leader on 2026-10-11: team name `ChengFeng`, display name `Tony Huang`, and both registered members meet the age, JAPAC, working-professional/entrepreneur and non-student eligibility requirements
 
 ## Form fields
 
