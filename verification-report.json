@@ -4,7 +4,7 @@
   "generatedAt": "2026-10-11T17:02:27Z",
   "commitSha": "399c517c3812928280d1420a15f650d0bc2a47f3",
   "commitScope": "Application source deployed to Cloud Run; later commits contain competition documentation and media updates.",
-  "submissionMaterialsBaselineCommitSha": "6970aea10ba0cc022fdcba929f8228cc0556bbcb",
+  "submissionMaterialsBaselineCommitSha": "4fa5e72d3047806a8b996ae881fef3818e2b8abe",
   "repository": {
     "url": "https://github.com/tonyshould/materialloop-ai",
     "visibility": "public",
