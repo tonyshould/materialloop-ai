@@ -6,8 +6,8 @@ MaterialLoop AI is a competition-ready industrial circularity demo. It uses Gemi
 - **Theme:** Sustainability & Social Impact
 - **Source repository:** https://github.com/tonyshould/materialloop-ai
 - **Live prototype:** https://materialloop-ai-474046076456.asia-east1.run.app
-- **Demo video (2:59.00):** https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing
-- **Video backup (2:59.00):** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Final_2m59.mp4
+- **Demo video (3:00.00):** https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing
+- **Video backup (3:00.00):** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Final_3m00.mp4
 - **Presentation PDF:** https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Official.pdf
 
 ## Why it matters
@@ -118,8 +118,8 @@ The app never upgrades an observed or inferred field to verified. Case B and Cas
 
 ## Competition materials
 
-- [Public demo video — 2:59](https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing)
-- [Public Cloud Storage video backup](https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Final_2m59.mp4)
+- [Public demo video — 3:00](https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing)
+- [Public Cloud Storage video backup](https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Final_3m00.mp4)
 - [Public presentation PDF](https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Official.pdf)
 - [Architecture](docs/ARCHITECTURE.md)
 - [Business case](docs/BUSINESS_CASE.md)

@@ -173,7 +173,7 @@ function Build-Variant {
 }
 
 $results = @(
-  Build-Variant -Name "Final_2m59" -SceneIndices @(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 17) -TargetSeconds 179.0
+  Build-Variant -Name "Final_3m00" -SceneIndices @(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 15, 17) -TargetSeconds 180.0
   Build-Variant -Name "Extended_3m30" -SceneIndices (1..$scenes.Count) -TargetSeconds $extendedTargetSeconds
 )
 

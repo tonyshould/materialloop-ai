@@ -1,7 +1,7 @@
 {
   "project": "MaterialLoop AI",
   "theme": "Sustainability & Social Impact",
-  "generatedAt": "2026-10-11T17:02:27Z",
+  "generatedAt": "2026-10-12T16:24:15Z",
   "commitSha": "399c517c3812928280d1420a15f650d0bc2a47f3",
   "commitScope": "Application source deployed to Cloud Run; later commits contain competition documentation and media updates.",
   "submissionMaterialsBaselineCommitSha": "4fa5e72d3047806a8b996ae881fef3818e2b8abe",
@@ -29,15 +29,15 @@
   },
   "submissionArtifacts": {
     "demoVideo": {
-      "file": "submission/MaterialLoop_AI_Demo_Final_2m59.mp4",
-      "publicBackupUrl": "https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Final_2m59.mp4",
+      "file": "submission/MaterialLoop_AI_Demo_Final_3m00.mp4",
+      "publicBackupUrl": "https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Final_3m00.mp4",
       "googleDriveUrl": "https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing",
       "googleDriveShared": true,
-      "durationSeconds": 179,
-      "sha256": "627384D9B8AEF292974A4FFDB436838F33C5A81274768EB0EA552663085154EF",
-      "md5": "00F39C775B4BD652638018653202EEBD",
+      "durationSeconds": 180,
+      "sha256": "3BAF7AC887FDCD7D827592BABCAC83169A70B1AF556059EEEC25A875B0F4213B",
+      "md5": "95CFF36F6CB3C5DC849342FBA5649D80",
       "officialDurationGuidance": "Public page and Hack2skill form: up to 3 minutes; campaign email: 3-4 minutes.",
-      "durationDecision": "The conservative 2:59 version follows the strictest public and form limit.",
+      "durationDecision": "Exactly 3:00 is the safe intersection between the form maximum and the latest official email minimum.",
       "resolution": "1920x1080",
       "audio": "English narration plus original synthesized ambient bed"
     },

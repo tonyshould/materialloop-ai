@@ -1,6 +1,6 @@
-# MaterialLoop AI Competition Demo — Final 2:59 Version
+# MaterialLoop AI Competition Demo — Final 3:00 Version
 
-Verified runtime: exactly 2 minutes 59.00 seconds. The selected sequence ends cleanly and follows the strictest public/form duration limit.
+Verified runtime: exactly 3 minutes 00.00 seconds. The selected sequence ends cleanly and satisfies both the form maximum and the latest official email minimum.
 
 ## 0:00 to 2:01 - Core product story
 
@@ -22,7 +22,7 @@ Each pilot ends with a reviewable before-and-after report, so the customer can d
 
 This is the multiplier: Gemini helps understand messy evidence, deterministic controls protect the decision, and Google Cloud makes the workflow deployable. MaterialLoop AI converts circularity from an aspiration into a reviewable operating process.
 
-## 2:50 to 2:59 - Closing frame
+## 2:50 to 3:00 - Closing frame
 
 The closing frame remains visible so judges can read the product name and live-prototype call to action. The soundtrack fades out naturally.
 

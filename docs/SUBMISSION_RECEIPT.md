@@ -20,7 +20,7 @@ The receipt emails did not include a separate submission ID. They confirmed that
 - Pitch-deck PDF: https://storage.googleapis.com/vision-hack2skill-production/innovator/USER02385210/1791504321872-ABCMaterialLoopAI.pdf
 - GitHub: https://github.com/tonyshould/materialloop-ai
 - Demo video: https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing
-- Public video backup: https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Final_2m59.mp4
+- Public video backup: https://storage.googleapis.com/ruitwin-production-materialloop-public/MaterialLoop_AI_Demo_Final_3m00.mp4
 
 ## Verification on 2026-10-11
 
@@ -36,6 +36,12 @@ The receipt emails did not include a separate submission ID. They confirmed that
 - The public Google Drive file was replaced in place with a 2:59.00 version, preserving the submitted URL and its public permission.
 - The conservative duration follows the public competition page and submission-form limit despite a conflicting 3–4 minute campaign email.
 - The replacement video retains complete narration and a deliberate closing frame; it is not an abrupt trim.
+
+## Final duration alignment on 2026-10-13
+
+- The same public Google Drive file was replaced in place with an exact 3:00.00 version.
+- Exactly 3:00 is the overlap between the form's "up to 3 minutes" limit and the latest official email's 3–4 minute requirement.
+- Narration and product content are unchanged; only the readable closing frame was extended by one second.
 
 ## Team-leader declaration
 

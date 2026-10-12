@@ -27,7 +27,7 @@ https://github.com/tonyshould/materialloop-ai
 **Demo video**  
 https://drive.google.com/file/d/1cKBtEqEtBLswikTGTFjhstOb6rwPcsrh/view?usp=sharing
 
-Verified runtime: exactly 2 minutes 59.00 seconds. This conservative version satisfies the public theme page and the Hack2skill form's "up to 3 minutes" limit, while avoiding the risk created by a conflicting campaign email that requested 3–4 minutes.
+Verified runtime: exactly 3 minutes 00.00 seconds. This is the single safe intersection between the Hack2skill form's "up to 3 minutes" limit and the latest official campaign email's 3–4 minute requirement.
 
 **Brief description**
 
